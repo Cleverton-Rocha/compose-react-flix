@@ -28,7 +28,7 @@ services:
    
 
   frontend:
-    image: ultr444/react-flix:1.0
+    image: ultr444/react-flix:2.1
     hostname: react-flix
     ports:
       - '3000:3000'
@@ -41,4 +41,4 @@ services:
 networks:
   default:
     driver: bridge
-    name: rinha-nginx-2024q1
+    name: react-flix
